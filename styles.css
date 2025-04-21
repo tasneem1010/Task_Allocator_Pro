@@ -1,0 +1,269 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto.ttf') format('truetype');
+    font-weight: normal;
+
+}
+
+legend {
+    display: inline-block;
+    width: fit-content;
+    padding: 0.5rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.input_error {
+    border: 1px solid red;
+}
+
+.user_table {
+    border: 1px solid black;
+    width: 50%;
+
+    border-collapse: collapse;
+}
+
+.user_table th,
+td {
+    border: 1px solid black;
+    padding: 0.3rem;
+}
+
+.main_image {
+    width: 100%;
+    height: 100%;
+
+}
+
+.main {
+    margin-left: 200px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+.title__link {
+    text-decoration: none;
+    color: white;
+}
+
+.text__input {
+    width: 90%;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.text__input:focus {
+    outline: none;
+}
+
+.date__input {
+    width: 90%;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.date__input:focus {
+    outline: none;
+}
+
+.file__input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.error_label {
+    color: red;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.message_label {
+    padding: 20px;
+    color: black;
+    font-size: 26px;
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 5px;
+    border-color: #222;
+}
+
+form button {
+    background-color: #0181b3;
+    border: none;
+    color: white;
+    font-size: medium;
+    padding: 14px 19px;
+    border-radius: 15px;
+    transition: background-color 0.2s;
+}
+
+form button:hover {
+    background-color: #004c68;
+}
+
+header {
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px 19px;
+
+    background-image: linear-gradient(to right, #006b92, rgb(116, 188, 244));
+    width: 100%;
+    position: fixed;
+    top:100;
+}
+
+header h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+.navLink {
+    color: white;
+    font-size: medium;
+
+    padding: 5px 10px;
+    transition: background-color 0.2s;
+    text-decoration: none;
+
+     display: block;
+
+
+}
+
+.navLink:hover {
+    background-color: #006b92;
+    border-radius: 5px;
+}
+
+.navLink:active {
+    background-color: #006b92;
+    border-radius: 5px;
+}
+
+
+footer {
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 14px 19px;
+
+    background-image: linear-gradient(to right, #006b92, rgb(116, 188, 244));
+    width: 100%;
+    position: fixed;
+    bottom:0;
+}
+
+footer p {
+    margin: 0;
+   
+}
+
+.navbar {
+    background-color: #005f81;
+
+    color: #fff;
+    padding: 10px 20px;
+    width: 200px;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
+}
+
+.navbar ul {
+    list-style: none;
+
+}
+
+.navbar ul li {
+    margin: 15px 0;
+
+}    
+
+.form-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 20px;
+    background-color: white;
+    
+}
+
+
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    text-align: left; 
+} */
