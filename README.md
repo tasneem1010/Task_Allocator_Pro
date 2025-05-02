@@ -95,10 +95,6 @@ TaskAllocatorPro/
 - Secure file upload handling
 - Input validation
 
-## Contributing
-
-This project is maintained by Tasneem Abu Sara (ID: 1220446). For any issues or suggestions, please contact the maintainer.
-
 ## License
 
 This project is proprietary software. All rights reserved. 
