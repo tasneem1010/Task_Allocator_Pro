@@ -34,24 +34,6 @@ TaskAllocatorPro is a web-based project management system designed to streamline
 - Web server (Apache recommended)
 - Modern web browser
 
-## Installation
-
-1. **Database Setup**
-   - Import the database schema from `dbschema_1220446.sql`
-   - Configure database connection in `php/db.inc.php`
-
-2. **Web Server Configuration**
-   - Place the project files in your web server directory
-   - Ensure the `uploads` directory is writable
-   - Configure your web server to point to the project directory
-
-3. **Initial Setup**
-   - Access the system through your web browser
-   - Use the default login credentials:
-     - Manager: tasneem / Password1
-     - Project Leader: ahmad / ahmad123
-     - Team Member: leen / leen12345
-
 ## Directory Structure
 
 ```
